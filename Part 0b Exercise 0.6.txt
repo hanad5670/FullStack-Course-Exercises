@@ -1,0 +1,3 @@
+browser->client: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa (Content-type JSON)
+client->server: sends new note as JSON data to be saved in server
+client->browser: creates new note using given JSON data and rerenders all notes to include new one. 
